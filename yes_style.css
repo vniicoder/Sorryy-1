@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+.header_text {
+    font-family:cursive;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    text-align:center;
+    margin-top:20px;
+    margin-bottom: 0px;
+
+
+
+}
+
+.para_text {
+    font-size: 30px;
+    font-weight: bold;
+    color:aqua;
+    animation: color-change 2s infinite alternate;
+}
+
+@keyframes color-change {
+    0% {
+        color: white;
+    }
+    50% {
+        color: rgb(250, 9, 109);
+    }
+    100% {
+        color: aqua;
+    }
+}
+
+.gif_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
